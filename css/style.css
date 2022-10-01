@@ -1,0 +1,192 @@
+body {
+  width: 1170px;
+  margin: 0px auto;
+  background-color: #f1f1f1;
+}
+
+@font-face {
+  font-family: "MullerBold";
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("Muller"), url("../fonts/MullerRegular.woff") format("woff"),
+    url("../fonts/MullerRegular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "MullerBold";
+  font-style: normal;
+  font-weight: 700;
+
+  src: local("Muller"), url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
+}
+@font-face {
+  font-family: "MullerBold";
+  font-style: normal;
+  font-weight: 500;
+
+  src: local("Muller"), url("../fonts/MullerMedium.woff") format("woff"),
+    url("../fonts/MullerMedium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "MullerBold";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Muller"), url("../fonts/MullerLight.woff") format("woff"),
+    url("../fonts/MullerLight.woff2") format("woff2");
+}
+.header {
+  padding-top: 30px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.logo-image {
+  margin-right: 26px;
+}
+.phone-number {
+}
+.phone-number-text {
+  font-family: "MullerBold";
+  font-size: 22px;
+  font-weight: 400;
+  color: #666666;
+}
+.personal-account {
+  display: flex;
+  margin-left: 550px;
+  font-family: "MullerBold";
+  font-size: 16px;
+  font-weight: 400;
+  color: #cc9933;
+}
+.about-us-section {
+  border-radius: 10px;
+  padding: 25px 21px;
+  background-color: white;
+}
+.about-us {
+  display: flex;
+}
+.about-us-button {
+  color: #333333;
+  margin-right: 46px;
+  font-size: 16px;
+  font-family: "MullerBold";
+  font-weight: 400;
+}
+.search-panel {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  margin-left: 850px;
+  margin-top: -62px;
+}
+.search-panel-input {
+  outline: none;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  border: none;
+}
+.search-panel-button {
+  margin-left: -20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  border: none;
+}
+.about-us-container {
+  margin-bottom: 70px;
+}
+.booking-section {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "MullerBold";
+  font-size: 40px;
+  font-weight: 400;
+}
+.booking-section-text {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-section-input {
+  display: flex;
+  flex-direction: column;
+}
+.booking-section-input-field {
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 21px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+.booking-section-sales {
+}
+.booking-info {
+  margin-bottom: 30px;
+}
+.booking-sales-img {
+  height: 540px;
+  width: 595px;
+
+  background-image: url(../img/img1.png);
+}
+.fast-booking {
+  margin-bottom: 30px;
+}
+.find-button {
+  margin-right: 33px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 21px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  background-color: #cc9933;
+  color: white;
+}
+.offer-count {
+  display: flex;
+  align-items: center;
+}
+.offer-count-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.offer-count-item {
+  color: #cc9933;
+}
+.img-text-numbers {
+    margin-left: 45px;
+  margin-bottom: 40px;
+  display: flex;
+  color: white;
+  font-size: 66px;
+}
+.img-text-price {
+  opacity: 0.4;
+  display: flex;
+  color: gray;
+  font-size: 35px;
+}
+.img-text-info {
+  position: absolute;
+  bottom: 65px;
+}
+.img-text-more-info {
+  font-size: 16px;
+  margin-left: 40px;
+  color: #cc9933;
+}
+.img-flex-div {
+    margin-bottom: 35px;
+    margin-left: 45px;
+  display: flex;
+  align-items: center;
+}
