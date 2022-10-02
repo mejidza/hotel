@@ -229,12 +229,17 @@ body {
   padding: 41px;
   background-color: white;
 }
+
 .card-text-item {
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: 500;
   color: #cc9933;
 }
+
+
+
+
 .card-subtext-item {
   line-height: 30px;
   font-size: 16px;
