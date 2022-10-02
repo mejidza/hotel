@@ -1,110 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Hotel</title>
+</head>
+<body>
     <header class="header">
-      <div class="container">
-        <div class="logo-image">
-          <img src="./img/Logo.png" alt="site Logo" />
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-telephone">
+                    <img class="logo" src="./img/Logo.png" alt="logo">
+                    <a class="phone-number" href="tel:+78142332211">+7(814)-233-22-11</a>
+                </div>
+                <div class="sign-up">
+                    <a class="sign-up-button" href="#">Личный кабинет</a>
+                </div>
+            </div>
+            <div class="nav-container">
+                <nav class="navigation-panel">
+                    <ul class="navigation-list">
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">
+                                Услуги
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">
+                                Преимущества
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">
+                                Размещение
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">
+                                Блог
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">
+                                Контакты
+                            </a>
+                        </li>
+                </nav>
+                <div class="find-field">
+                    <input class="find-field-text" placeholder="Поиск" type="text">
+                    <button class="find-button">
+                        <img src="./img/search.png" alt="search icon">
+                    </button>
+                </div>
+            </div>
+
         </div>
-        <div class="phone-number">
-          <a class="phone-number-text" href="tel:+78142332211"
-            >+7(814)-233-22-11</a
-          >
-        </div>
-        <a href="#" class="personal-account">Личный кабинет</a>
-      </div>
-      <nav class="about-us-container">
-        <section class="about-us-section">
-          <ul class="about-us">
-            <li>
-              <a class="about-us-button" href="#">О нас</a>
-            </li>
-            <li>
-              <a class="about-us-button" href="#">Услуги</a>
-            </li>
-            <li>
-              <a class="about-us-button" href="#">Преимущества</a>
-            </li>
-            <li>
-              <a class="about-us-button" href="#">Размещение</a>
-            </li>
-            <li>
-              <a class="about-us-button" href="#">Блог</a>
-            </li>
-            <li>
-              <a class="about-us-button" href="#">Контакты</a>
-            </li>
-          </ul>
-        </section>
-        <form class="search-panel">
-          <input placeholder="Поиск" class="search-panel-input" type="text" />
-          <button class="search-panel-button">
-            <img src="./img/search.png" alt="" />
-          </button>
-        </form>
-      </nav>
     </header>
     <section class="booking-section">
-      <div class="booking-section-input">
-        <div class="booking-section-text">
-          <h5 class="booking-info">Быстрая бронь</h5>
-        </div>
-        <input
-          placeholder="Город"
+        <div class="container">
+            <div class="booking-container">
+        <div class="booking-section-input">
+          <div class="booking-section-text">
+            <h5 class="booking-info">Быстрая бронь</h5>
+          </div>
+          <input
+            placeholder="Город"
+            class="booking-section-input-field"
+            type="text"
+          />
+          <input
+            placeholder="Категория номера"
+            class="booking-section-input-field"
+            type="text"
+          />
+          <input
+            placeholder="Дата заселения"
+            class="booking-section-input-field"
+            type="text"
+          />
+          <input
+            placeholder="Количество ночей"
+            class="booking-section-input-field"
+            type="text"
+          />
+          <input
+          placeholder="Количество гостей"
           class="booking-section-input-field"
           type="text"
         />
-        <input
-          placeholder="Категория номера"
-          class="booking-section-input-field"
-          type="text"
-        />
-        <input
-          placeholder="Дата заселения"
-          class="booking-section-input-field"
-          type="text"
-        />
-        <input
-          placeholder="Количество ночей"
-          class="booking-section-input-field"
-          type="text"
-        />
-        <div class="offer-count">
-          <button class="find-button">Найти номер</button>
-          <p class="offer-count-text">
-            <span class="offer-count-item"> 9 756 </span> предложений доступно
-          </p>
-        </div>
-      </div>
-
-      <div class="booking-section-sales">
-        <h5 class="fast-booking">Горячие предложения</h5>
-        <div class="booking-sales-img">
-            <div class="img-text-info">
-            <p class="img-text-numbers">
-                
-                Номера<br>категории<br>люкс   
+          <div class="offer-count">
+            <button class="booking-section-find-button"> Найти номер </button>
+            <p class="offer-count-text">
+              <span class="offer-count-item"> 9 756 </span> предложений доступно
             </p>
-            <div class="img-flex-div">
-            <p class="img-text-price">
-                от 5000 р
-            </p>
-            <p class="img-text-more-info">
-                Подробнее
-            </p>
+          </div>
         </div>
+  
+        <div class="booking-section-sales">
+          <h5 class="fast-booking">Спецпредложения</h5>
+          <div class="booking-sales-img">
+              <div class="img-text-info">
+              <p class="img-text-numbers">
+                  
+                  Номера<br>категории<br>люкс   
+              </p>
+              <div class="img-flex-div">
+              <p class="img-text-price">
+                  от 5000 р
+              </p>
+              <a href="#" class="img-text-more-info">
+                  Подробнее
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    </section>
-  </body>
+</div>
+      </section>
+      <section class="about-us-section">
+        <div class="container">
+            <h2 class="about-us-title booking-info">
+                О нас
+            </h2>
+            <p class="about-us-subtitle">
+                Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.
+            </p>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+            <h5 class="fast-booking booking-info">Услуги</h5>
+            <div class="card-container">
+                <div class="card">
+
+                    <div class="card-text">
+
+                        <h5 class="card-text-item">
+                            <a href="#" class="card-link">
+                                Эксклюзивное обслуживание
+                            </a>
+                        </h5>
+                        <p class="card-subtext-item">
+                            Равным образом постоянный количественный рост и сфера нашей активности
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    
+                    <div class="card-text">
+
+                        <h5 class="card-text-item">
+                            <a href="#" class="card-link">
+                                Аренда банкетных залов
+                            </a>
+                        </h5>
+                        <p class="card-subtext-item">
+                            Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    
+                    <div class="card-text">
+
+                        <h5 class="card-text-item">
+                            <a href="#" class="card-link">
+                                Сауны, бассейны, бани, фитнес-залы
+                            </a>
+                        </h5>
+                        <p class="card-subtext-item">
+                            Не следует, однако забывать, что начало повседневной работы по формированию позиции
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    
+                    <div class="card-text">
+
+                        <h5 class="card-text-item">
+                            <a href="#" class="card-link">
+                            Охраняемые автомобильные стоянки
+                        </a>
+                        </h5>
+                        <p class="card-subtext-item">
+                            Не следует, однако забывать, что начало повседневной работы по формированию позиции
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </section>
+    
+</body>
 </html>
