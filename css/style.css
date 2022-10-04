@@ -202,6 +202,7 @@ body {
   letter-spacing: 0.2px;
   font-size: 16px;
   line-height: 40px;
+  margin-left: 44px;
 }
 .card-container {
   display: flex;
@@ -247,4 +248,44 @@ body {
 }
 .card-link {
     color: #cc9933;
+}
+
+.advantages-section {
+
+}
+.advantages-title {
+
+}
+.advantages-card-container {
+  margin-bottom: 70px;
+ 
+
+}
+.advantages-card {
+  border-radius: 10px;
+  background-color: white;
+  width: 275px;
+  height: 275px;
+  margin: 15px;
+
+}
+.advantages-icon {
+  margin-bottom: 23px;
+  margin-left: 44px;
+  margin-top: 44px;
+
+}
+.advantages-text {
+  margin-left: 44px;
+  
+  
+
+}
+.card-first-row {
+  display: flex;
+
+}
+.card-second-row {
+  display: flex;
+
 }
