@@ -190,7 +190,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-
 }
 .about-us-title {
   font-size: 40px;
@@ -237,28 +236,21 @@ body {
   color: #cc9933;
 }
 
-
-
-
 .card-subtext-item {
   line-height: 30px;
   font-size: 16px;
   font-weight: 400;
 }
 .card-link {
-    color: #cc9933;
+  color: #cc9933;
 }
 
 .advantages-section {
-
 }
 .advantages-title {
-
 }
 .advantages-card-container {
   margin-bottom: 70px;
- 
-
 }
 .advantages-card {
   border-radius: 10px;
@@ -266,41 +258,29 @@ body {
   width: 275px;
   height: 275px;
   margin: 15px;
-
 }
 .advantages-icon {
   margin-bottom: 23px;
   margin-left: 44px;
   margin-top: 44px;
-
 }
 .advantages-text {
   margin-left: 44px;
-  
-  
-
 }
 .card-first-row {
   display: flex;
-
 }
 .card-second-row {
   display: flex;
-
 }
 .card-third-row {
   display: flex;
 }
 .placement-section {
-
-
 }
 .placement-title {
-
-} 
+}
 .placement-card-container {
-  
-
 }
 .placement-card {
   background-color: white;
@@ -308,28 +288,16 @@ body {
   border-radius: 20px;
   margin-right: 26px;
   margin-bottom: 26px;
-
-
-  
-
 }
 .placement-card-price {
   display: flex;
   font-family: "Muller";
-  
-  
-  
- 
-  
 }
 .rating-image {
   padding-top: 40px;
   margin-left: 70px;
-
 }
 .placement-rating-image {
-
-  
 }
 
 .placement-subtext {
@@ -338,7 +306,7 @@ body {
   margin-left: 43px;
   font-family: "Muller";
 }
-.placement-subtext-info { 
+.placement-subtext-info {
   padding-bottom: 23px;
   margin-left: 43px;
   font-family: "Muller";
@@ -346,7 +314,6 @@ body {
 .placement-geolocation-text {
   padding-bottom: 45px;
   font-family: "Muller";
-
 }
 .placement-card-text-rating {
   padding-top: 40px;
@@ -358,17 +325,16 @@ body {
   font-family: "Muller";
 }
 .placement-bold-text {
-font-size: 22px;
+  font-size: 22px;
 }
 .placement-button {
   border-radius: 10px;
   background-color: white;
-  border-color: #f0bf5f ;
+  border-color: #f0bf5f;
   color: #f0bf5f;
   font-size: 16px;
   padding: 15px 21px;
   font-family: "Muller";
-  
 }
 .placement-button-container {
   padding-bottom: 13px;
@@ -379,12 +345,223 @@ font-size: 22px;
   width: 375px;
 }
 .view-variants-button {
-  
   color: white;
   font-size: 22px;
-  
 }
 .see-more-button {
   margin-top: 370px;
   margin-left: 41px;
+}
+.contact-section {
+}
+.contact-title {
+}
+.contact-container {
+  display: flex;
+  
+  
+}
+.contact-info-box {
+  width: 472px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+}
+.contact-info-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #666666;
+}
+.title-text {
+  text-align: left;
+  font-size: 22px;
+  white-space: nowrap;
+  padding-right: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.adress-text-info {
+  text-align: right;
+  font-size: 16px;
+}
+.contact-phonenumber {
+  text-align: left;
+  color: #f0bf5f;
+}
+.email-first-row {
+}
+.contact-mail {
+  color: #f0bf5f;
+  font-size: 16px;
+  
+
+}
+.email-column {
+  padding-left: 20px;
+}
+.phone-column { 
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.email-text-container {
+  display: flex;
+}
+.mail-info-text {
+  text-align: right;
+}
+.contact-second-title {
+  margin-left: 350px;
+}
+
+.contact-input-field {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  margin-left: 320px;
+}
+.contact-input-item {
+  padding: 22px ;
+  border: none;
+  outline: none;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Muller";
+}
+.contact-input-message {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+  font-family: "Muller";
+  padding-bottom: 82px;
+  padding-top: 22px;
+  padding-left: 22px;
+}
+.contact-send-button {
+  margin-left: 320px;
+  padding: 22px;
+  width: 340px;
+  background-color: #cc9933;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Muller";
+  font-size: 16px;
+  margin-top: 24px;
+  border-radius: 10px;
+}
+.route-send-button {
+  width: 214px;
+  border-color: #cc9933;
+  background-color: white;
+  font-family: "Muller";
+  font-size: 16px;
+  color: #cc9933;
+  padding: 24px;
+  border-radius: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.button-container {
+  padding-top: 40px;
+}
+.footer {
+  padding-bottom: 20px;
+
+}
+.footer-container {
+  display: flex;
+  margin-top: 22px;
+  border-radius: 10px;
+  background-color: #333333;
+  height: 300px;
+}
+.footer-text {
+  font-size: 16px;
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  line-height: 40px;
+}
+.footer-subtext {
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  padding-left: 50px;
+  line-height: 40px;
+}
+.footer-link {
+ margin-left: 50px;
+ font-family: "Muller";
+ color: #cc9933;
+}
+.footer-first-text {
+  
+}
+.footer-second-text {
+ padding-top: 10px;
+ font-family: "Muller";
+}
+.footer-adress-info {
+  font-size: 16px;
+  color: white;
+  padding: 30px;
+  padding-left: 129px;
+
+}
+.footer-phone-number-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px ;
+  padding-bottom: 35px;
+  
+  
+}
+.footer-phone-number {
+  color: #cc9933;
+  padding-bottom: 10px;
+  font-family: "Muller";
+  font-size: 16px;
+}
+.footer-mail {
+  color: #cc9933;
+  padding-bottom: 10px;
+  font-family: "Muller";
+  font-size: 16px;
+}
+.footer-mail-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px ;white-space: nowrap;
+}
+.footer-image {
+  display: flex;
+  
+  
+}
+.footer-logo {
+  position: absolute;
+  left: 1111px;
+  top: 5444px;
+
+}
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1450px;
+  top: 5434px;
+  
+}
+.footer-link-icon {
+  padding-bottom: 15px;
 }
